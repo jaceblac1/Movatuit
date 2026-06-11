@@ -3,6 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(2, 6, 23, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
 }
 
 .logo-section {
@@ -27,6 +36,7 @@
   color:white;
   margin: 0;
   text-align: left;
+  font-size: 18px;
 }
 
 .logo-tagline {
@@ -44,4 +54,8 @@
   border-radius: 10px;
   background: linear-gradient(90deg, #2563eb, #f59e0b);
   cursor: pointer;
+}
+
+.book-a-call-button:hover {
+  background: linear-gradient(90deg, #5e80ef, #fcbb71);
 }

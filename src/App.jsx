@@ -1,13 +1,12 @@
 import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 import './App.css'
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <h1>Movatuit</h1>
-      <p>Built with React</p>
+      <Hero />
     </>
   );
 }
