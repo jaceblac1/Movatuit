@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #2563eb, #f59e0b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-title{
+  color:white;
+  margin: 0;
+  text-align: left;
+}
+
+.logo-tagline {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+}
+
+.book-a-call-button {
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #2563eb, #f59e0b);
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+body {
+  max-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(
+    circle at top,
+    rgba(37, 99, 235, 0.25),
+    transparent 40%
+  ),
+  radial-gradient(
+    circle at bottom,
+    rgba(250, 204, 21, 0.15),
+    transparent 40%
+  ),
+  #020617
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
