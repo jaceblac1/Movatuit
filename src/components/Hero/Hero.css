@@ -9,10 +9,10 @@
   align-items: center;
   background-color: rgba(37, 99, 235, 0.2);
   color: #60a5fa;
-  padding: 5px 10px;
+  padding: 3px 10px;
   border-radius: 999px;
   font-size: 14px;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
   border: 1px solid rgba(37, 99, 235, 0.4);
   font-weight: 500;
   gap: 8px;
@@ -28,21 +28,28 @@
   color: white;
   font-size: 4rem;
   line-height: 1.1;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
   font-weight: 700;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #2563eb 10%, #fbbf24 50%, #f59e0b 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-description {
   color: #94a3b8;
   font-size: 1rem;
   max-width: 700px;
-  margin: 0 auto 40px;
+  margin: 0 auto 20px;
 }
 
 .hero-buttons {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 60px;
 }
 
 .primary-button {
@@ -77,4 +84,28 @@
 
 .secondary-button:hover {
   background: rgba(148, 163, 184, 0.1);
+}
+
+.hero-divider {
+  width: 60%;
+  height: 0.5px;
+  margin: 0 auto;
+  background: rgba(148, 163, 184, 0.15);
+}
+
+.hero-company {
+ color: #64748b;
+  font-size: 14px;
+  margin: 30px 0px 24px;
+  opacity: 1;
+}
+
+.hero-company-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  font-weight: semibold;
+  color: #475569;
+  font-size: 20px;
 }

@@ -12,7 +12,7 @@ function Hero() {
       <h1 className="hero-title">
         <div>Empowering Startups with</div>
         
-        <div>Smart Financial Processes</div>
+        <div className="gradient-text">Smart Financial Processes</div>
         
         <div>& AI Automation</div>
       </h1>
@@ -31,6 +31,23 @@ function Hero() {
           Explore Services
         </button>
       </div>
+
+      <div className="hero-divider"></div>
+
+      <div className="hero-company">
+         <p>Trusted by innovative companies</p>
+      </div>
+       
+       <div className="hero-company-list">
+         <div>TechStart</div>
+
+          <div>GrowthLab</div>
+
+          <div>ScaleUp.io</div>
+
+          <div>FinanceFirst</div>
+       </div>
+    
     </section>
   );
 }

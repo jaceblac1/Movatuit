@@ -9,8 +9,8 @@
   left: 0;
   z-index: 1000;
   background: rgba(2, 6, 23, 0.8);
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
 }
 
