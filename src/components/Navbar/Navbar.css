@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -58,4 +62,18 @@
 
 .book-a-call-button:hover {
   background: linear-gradient(90deg, #5e80ef, #fcbb71);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .logo-title {
+    display: none;
+  }
+
+  .logo-tagline {
+    display: none;
+  }
 }
