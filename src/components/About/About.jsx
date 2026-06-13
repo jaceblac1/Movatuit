@@ -70,6 +70,112 @@ function About() {
           </div>
         </div>
       </div>
+
+      <div className="chaos-section">
+        <div className="chaos-container">
+          <h2 className="chaos-title">From Financial Chaos to Clarity</h2>
+
+          <div className="chaos-cards">
+            <div className="chaos-card problem-card">
+              <span className="card-label problem-label">The Problem</span>
+
+              <h3>Startups Struggle With Finances</h3>
+
+              <ul>
+                <li>
+                  <span className="icon-circle red-icon">
+                    <img
+                      src="/circle-x.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Poor financial processes slowing growth
+                </li>
+                <li>
+                  <span className="icon-circle red-icon">
+                    <img
+                      src="/circle-x.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Inaccurate bookkeeping causing costly errors
+                </li>
+                <li>
+                  <span className="icon-circle red-icon">
+                    <img
+                      src="/circle-x.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Lack of real-time financial visibility
+                </li>
+                <li>
+                  <span className="icon-circle red-icon">
+                    <img
+                      src="/circle-x.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Too much time spent on manual finance tasks
+                </li>
+              </ul>
+            </div>
+
+            <div className="chaos-card solution-card">
+              <span className="card-label solution-label">The Solution</span>
+
+              <h3>Clarity, Control & Confidence</h3>
+
+              <ul>
+                <li>
+                  <span className="icon-circle blue-icon">
+                    <img
+                      src="/circle-check.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Streamlined processes that scale with you
+                </li>
+                <li>
+                  <span className="icon-circle blue-icon">
+                    <img
+                      src="/circle-check.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Accurate, automated bookkeeping systems
+                </li>
+                <li>
+                  <span className="icon-circle blue-icon">
+                    <img
+                      src="/circle-check.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  Real-time dashboards and insights
+                </li>
+                <li>
+                  <span className="icon-circle blue-icon">
+                    <img
+                      src="/circle-check.png"
+                      alt="Problem"
+                      className="list-icon"
+                    />
+                  </span>
+                  AI automation freeing up your time
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
