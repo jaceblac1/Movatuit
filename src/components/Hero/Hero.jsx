@@ -3,17 +3,20 @@ import "./Hero.css";
 function Hero() {
   return (
     <section className="hero">
-      
       <div className="hero-badge">
-        <img className="hero-badge-icon" src="/sparkles.svg" alt="Sparkle Icon" />
+        <img
+          className="hero-badge-icon"
+          src="/sparkles.svg"
+          alt="Sparkle Icon"
+        />
         AI-Powered Financial Advisory
       </div>
 
       <h1 className="hero-title">
         <div>Empowering Startups with</div>
-        
+
         <div className="gradient-text">Smart Financial Processes</div>
-        
+
         <div>& AI Automation</div>
       </h1>
 
@@ -23,11 +26,16 @@ function Hero() {
       </p>
 
       <div className="hero-buttons">
-        <button className="primary-button">
-          Book a Free Strategy Call
-        </button>
+        <button className="primary-button">Book a Free Strategy Call</button>
 
-        <button className="secondary-button">
+        <button
+          className="secondary-button"
+          onClick={() => {
+            document
+              .getElementById("services")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
           Explore Services
         </button>
       </div>
@@ -35,19 +43,18 @@ function Hero() {
       <div className="hero-divider"></div>
 
       <div className="hero-company">
-         <p>Trusted by innovative companies</p>
+        <p>Trusted by innovative companies</p>
       </div>
-       
-       <div className="hero-company-list">
-         <div>TechStart</div>
 
-          <div>GrowthLab</div>
+      <div className="hero-company-list">
+        <div>TechStart</div>
 
-          <div>ScaleUp.io</div>
+        <div>GrowthLab</div>
 
-          <div>FinanceFirst</div>
-       </div>
-    
+        <div>ScaleUp.io</div>
+
+        <div>FinanceFirst</div>
+      </div>
     </section>
   );
 }
