@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Service from './components/Service/Service';
 import Serve from './components/Serve/Serve';
+import Process from './components/Process/Process';
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Service />
       <Serve />
+      <Process />
     </>
 
   );
