@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Service from './components/Service/Service';
 import Serve from './components/Serve/Serve';
 import Process from './components/Process/Process';
+import Why from './components/Why/Why';
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <Serve />
       <Process />
+      <Why />
     </>
 
   );
