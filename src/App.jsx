@@ -7,6 +7,8 @@ import Process from './components/Process/Process';
 import Why from './components/Why/Why';
 import Testimonial from './components/Testimonials/Testimonials';
 import Cta from './components/Cta/Cta';
+import Footer from './components/Footer/Footer';
+import Divider from './components/Divider/Divider';
 import './App.css'
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Why />
       <Testimonial />
       <Cta />
+      <Divider />
+      <Footer />
     </>
 
   );

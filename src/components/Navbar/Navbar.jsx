@@ -1,11 +1,11 @@
-import './Navbar.css';
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo-section">
         <div className="logo-circle">M</div>
-        
+
         <div>
           <h2 className="logo-title">Movatuit</h2>
           <p className="logo-tagline">
@@ -14,7 +14,12 @@ function Navbar() {
         </div>
       </div>
 
-      <button className="book-a-call-button">
+      <button
+        className="book-a-call-button"
+        onClick={() => {
+          document.getElementById("cta").scrollIntoView({ behavior: "smooth" });
+        }}
+      >
         Book a call
       </button>
     </nav>

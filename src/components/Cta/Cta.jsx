@@ -10,20 +10,20 @@ function Cta() {
         </span>
 
         <h2 className="cta-title">
-          Ready to Transform Your
-          <br />
-          <span>Financial Operations</span>?
+          Ready to Transform Your{" "}
+          <span className="gradient">Financial Operations</span> ?
         </h2>
 
         <p className="cta-description">
-          Book a free 30-minute strategy call with our team. No obligations, just
-          actionable insights for your business
+          Book a free 30-minute strategy call with our team. No obligations,
+          just actionable insights for your business
         </p>
 
-        <a href="https://wa.me/+234 707 949 8062"
+        <a
+          href="https://wa.me/+234 707 949 8062"
           target="_blank"
           rel="noopener noreferrer"
-          className="cta-button" 
+          className="cta-button"
         >
           Book Your Free Strategy Call
           <img src="/arrow-right.png" alt="" />
