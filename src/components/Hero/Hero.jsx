@@ -26,7 +26,16 @@ function Hero() {
       </p>
 
       <div className="hero-buttons">
-        <button className="primary-button">Book a Free Strategy Call</button>
+        <button
+          className="primary-button"
+          onClick={() => {
+            document
+              .getElementById("cta")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Book a Free Strategy Call
+        </button>
 
         <button
           className="secondary-button"
