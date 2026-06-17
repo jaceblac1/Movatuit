@@ -5,6 +5,7 @@ import Service from './components/Service/Service';
 import Serve from './components/Serve/Serve';
 import Process from './components/Process/Process';
 import Why from './components/Why/Why';
+import Testimonial from './components/Testimonials/Testimonials';
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Serve />
       <Process />
       <Why />
+      <Testimonial />
     </>
 
   );
